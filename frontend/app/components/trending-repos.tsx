@@ -23,7 +23,7 @@ export default function TrendingRepos() {
     const fetchRepos = async () => {
       try {
         setLoading(true)
-        const response = await fetch('gitrends.vercel.app/trending')
+        const response = await fetch('gitrends-api.vercel.app/trending')
         if (!response.ok) {
           throw new Error('Failed to fetch repositories')
         }
@@ -44,7 +44,7 @@ export default function TrendingRepos() {
     return (
       <div className="rounded-lg p-6 bg-red-900/20 border border-red-900">
         <p className="text-red-400">{error}</p>
-        <p className="text-gray-400 mt-2">Please make sure the API server is running at http://localhost:5050</p>
+        <p className="text-gray-400 mt-2">Please make sure the API server is running at gitrends-api.vercel.app</p>
       </div>
     )
   }

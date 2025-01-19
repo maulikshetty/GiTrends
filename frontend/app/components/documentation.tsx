@@ -5,7 +5,7 @@ export default function Documentation() {
         
         <h3 className="text-xl font-semibold mt-6 mb-2">Base URL</h3>
         <pre className="bg-gray-900 p-4 rounded-md">
-          <code>gitrends.vercel.app</code>
+          <code>gitrends-api.vercel.app</code>
         </pre>
   
         <h3 className="text-xl font-semibold mt-6 mb-2">1. Get Trending Repositories</h3>

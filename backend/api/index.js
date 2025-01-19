@@ -6,7 +6,7 @@ const cors = require("cors");
 
 app.use(
   cors({
-    origin: ["https://gi-trends-5vgw.vercel.app", "http://locahost:3000"], // Allow requests from localhost and my deployed frontend, please update with your's if you forked this repo (maulikshetty)
+    origin: ["https://gitrends.vercel.app"], // Allow requests from localhost and my deployed frontend, please update with your's if you forked this repo (maulikshetty)
   })
 );
 
