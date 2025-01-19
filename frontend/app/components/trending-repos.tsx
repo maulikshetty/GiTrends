@@ -23,7 +23,7 @@ export default function TrendingRepos() {
     const fetchRepos = async () => {
       try {
         setLoading(true)
-        const response = await fetch('https://gi-trends.vercel.app/trending')
+        const response = await fetch('gitrends.vercel.app/trending')
         if (!response.ok) {
           throw new Error('Failed to fetch repositories')
         }
