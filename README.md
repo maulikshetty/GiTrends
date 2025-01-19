@@ -1,0 +1,1 @@
+# GiTrends-API
