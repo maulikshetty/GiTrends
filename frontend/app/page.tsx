@@ -16,7 +16,7 @@ export default function Home() {
         <h1 className="text-4xl font-bold mb-8 text-center bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
           GitHub Trending Repositories
         </h1>
-        <p className="text-center text-sm text-gray-400 mb-8">Top repositories of {currentDate}</p>
+        <p className="text-center text-sm text-gray-400 mb-8">Top repositories of Today</p>
         <Tabs defaultValue="trending" className="w-full">
           <TabsList className="w-full grid grid-cols-2 mb-4">
             <TabsTrigger value="trending">Trending Repos</TabsTrigger>
