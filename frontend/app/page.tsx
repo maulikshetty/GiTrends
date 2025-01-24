@@ -4,11 +4,11 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "./components/ui/tabs"
 import { Footer } from './components/footer'
 
 export default function Home() {
-  const currentDate = new Date().toLocaleDateString('en-US', { 
-    year: 'numeric', 
-    month: 'long', 
-    day: 'numeric' 
-  })
+  // const currentDate = new Date().toLocaleDateString('en-US', { 
+  //   year: 'numeric', 
+  //   month: 'long', 
+  //   day: 'numeric' 
+  // })
 
   return (
     <main className="min-h-screen bg-black text-gray-100">
